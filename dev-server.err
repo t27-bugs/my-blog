@@ -1,0 +1,46 @@
+ ⨯ ./src/app/page.tsx
+Error:   [31mx[0m Expression expected
+     ,-[[36;1;4mC:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\src\app\page.tsx[0m:103:1]
+ [2m100[0m |     </div>
+ [2m101[0m |   );
+ [2m102[0m | }
+ [2m103[0m |             </div>
+     : [35;1m            ^[0m
+ [2m104[0m |           </div>
+ [2m105[0m |         </div>
+ [2m106[0m |       </section>
+     `----
+  [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4mC:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\src\app\page.tsx[0m:103:1]
+ [2m100[0m |     </div>
+ [2m101[0m |   );
+ [2m102[0m | }
+ [2m103[0m |             </div>
+     : [35;1m             ^^^^^[0m
+ [2m104[0m |           </div>
+ [2m105[0m |         </div>
+ [2m106[0m |       </section>
+     `----
+  [31mx[0m Expression expected
+     ,-[[36;1;4mC:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\src\app\page.tsx[0m:103:1]
+ [2m100[0m |     </div>
+ [2m101[0m |   );
+ [2m102[0m | }
+ [2m103[0m |             </div>
+     : [35;1m              ^^^^[0m
+ [2m104[0m |           </div>
+ [2m105[0m |         </div>
+ [2m106[0m |       </section>
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\1.pack.gz_' -> 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\1.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\1.pack.gz_' -> 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\1.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\1.pack.gz_' -> 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\1.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\1.pack.gz_' -> 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\1.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\TiboBroos\OneDrive - GITOK Bovenbouw\School\schooljaar 2025-2026\STEM\programmeren\bug-bounty-blog\.next\cache\webpack\client-development\0.pack.gz'

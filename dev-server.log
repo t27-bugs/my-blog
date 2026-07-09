@@ -1,0 +1,213 @@
+
+> bug-bounty-blog@0.1.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+   ▲ Next.js 15.5.20
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.7s
+ ○ Compiling / ...
+ ✓ Compiled / in 10.7s (1019 modules)
+ HEAD / 200 in 13282ms
+ GET / 200 in 13174ms
+ GET / 200 in 161ms
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 1429ms (1033 modules)
+ GET /blog 200 in 2367ms
+ GET /blog 200 in 315ms
+ GET / 200 in 1056ms
+ GET /blog 200 in 156ms
+ GET / 200 in 371ms
+ GET /blog?tag=CORS 200 in 62ms
+ GET /blog?tag=IDOR 200 in 51ms
+ GET /blog?tag=javascript 200 in 54ms
+ GET /blog?tag=bug-bounty 200 in 47ms
+ GET /blog 200 in 51ms
+ GET / 200 in 179ms
+ ✓ Compiled in 1790ms (1033 modules)
+ GET /blog 200 in 306ms
+ GET / 200 in 311ms
+ GET / 200 in 236ms
+ GET / 200 in 217ms
+ ✓ Compiled in 1247ms (1033 modules)
+ GET /blog 200 in 390ms
+ GET / 200 in 393ms
+ HEAD / 200 in 325ms
+ HEAD /blog 200 in 460ms
+ ○ Compiling /blog/[slug] ...
+ ✓ Compiled /blog/[slug] in 2.4s (1034 modules)
+ HEAD /about 200 in 3250ms
+ GET /blog 200 in 1064ms
+ GET / 200 in 1064ms
+ HEAD /blog/why-idor-bugs-are-so-common 200 in 5768ms
+ GET / 200 in 237ms
+ GET / 200 in 145ms
+ GET /blog?tag=authorization 200 in 65ms
+ GET /blog?tag=authorization 200 in 249ms
+ GET /blog?tag=authorization 200 in 109ms
+ ✓ Compiled in 955ms (256 modules)
+ GET /blog?tag=authorization 200 in 83ms
+ GET / 200 in 112ms
+ GET /blog?tag=authorization 200 in 83ms
+ GET /blog 200 in 45ms
+ GET /blog/My%20First%20Bug%20Bounty%20An%20IDOR%20in%20an%20AI%20Chat%20History 200 in 66ms
+ GET /blog 200 in 40ms
+ GET /blog/My%20First%20Bug%20Bounty%20An%20IDOR%20in%20an%20AI%20Chat%20History 200 in 54ms
+ ✓ Compiled in 225ms (256 modules)
+ GET / 200 in 128ms
+ GET /blog/My%20First%20Bug%20Bounty%20An%20IDOR%20in%20an%20AI%20Chat%20History 200 in 123ms
+ ✓ Compiled in 341ms (256 modules)
+ GET /blog/My%20First%20Bug%20Bounty%20An%20IDOR%20in%20an%20AI%20Chat%20History 200 in 154ms
+ GET / 200 in 167ms
+ ✓ Compiled in 208ms (256 modules)
+ GET /blog/My%20First%20Bug%20Bounty%20An%20IDOR%20in%20an%20AI%20Chat%20History 200 in 118ms
+ GET / 200 in 132ms
+ GET /blog/My%20First%20Bug%20Bounty%20An%20IDOR%20in%20an%20AI%20Chat%20History 404 in 148ms
+ GET / 200 in 47ms
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 227ms
+ ✓ Compiled in 478ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 234ms
+ GET / 200 in 246ms
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 154ms
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 1720ms
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 223ms
+ ✓ Compiled in 1115ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 484ms
+ ✓ Compiled in 350ms (256 modules)
+ GET / 200 in 382ms
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 100ms
+ GET / 200 in 80ms
+ ✓ Compiled in 295ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 167ms
+ GET / 200 in 181ms
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 113ms
+ ✓ Compiled in 227ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 169ms
+ GET / 200 in 182ms
+ ✓ Compiled in 246ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 130ms
+ GET / 200 in 138ms
+ ✓ Compiled in 190ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 131ms
+ GET / 200 in 141ms
+ ✓ Compiled in 217ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 172ms
+ GET / 200 in 183ms
+ ✓ Compiled in 187ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 388ms
+ ✓ Compiled in 345ms (256 modules)
+ GET / 200 in 419ms
+ GET / 200 in 75ms
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 67ms
+ ✓ Compiled in 230ms (256 modules)
+ ✓ Compiled in 311ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 303ms
+ GET / 200 in 335ms
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 115ms
+ GET / 200 in 117ms
+ ✓ Compiled in 198ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 164ms
+ GET / 200 in 175ms
+ ✓ Compiled in 166ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 105ms
+ GET / 200 in 114ms
+ GET / 200 in 41ms
+ GET /blog/My%20First%20Bug%20Bounty%20An%20IDOR%20in%20an%20AI%20Chat%20History 200 in 49ms
+ GET /blog 200 in 53ms
+ ✓ Compiled in 185ms (256 modules)
+ GET /blog 200 in 97ms
+ GET / 200 in 100ms
+ ✓ Compiled in 210ms (256 modules)
+ GET / 200 in 113ms
+ GET /blog 200 in 115ms
+ GET /blog 200 in 132ms
+ ✓ Compiled in 176ms (256 modules)
+ GET / 200 in 103ms
+ GET /blog 200 in 101ms
+ GET /blog 200 in 109ms
+ GET / 200 in 37ms
+ GET /blog 200 in 42ms
+ GET /blog/My%20First%20Bug%20Bounty%20An%20IDOR%20in%20an%20AI%20Chat%20History 200 in 64ms
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 75ms
+ ✓ Compiled in 199ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 103ms
+ GET / 200 in 113ms
+ GET /blog/explaining-xss-like-im-teaching-myself 404 in 120ms
+ ✓ Compiled in 242ms (256 modules)
+ GET /blog/explaining-xss-like-im-teaching-myself 200 in 141ms
+ GET / 200 in 152ms
+ GET / 200 in 50ms
+ ✓ Compiled in 4s (256 modules)
+ ✓ Compiled in 854ms (256 modules)
+ ✓ Compiled in 395ms (256 modules)
+ ✓ Compiled in 7.4s (1044 modules)
+ ✓ Compiled in 2.4s (1044 modules)
+ ✓ Compiled in 4.1s (1044 modules)
+ ✓ Compiled in 197ms (256 modules)
+ ✓ Compiled in 3.2s (256 modules)
+ ✓ Compiled in 308ms (256 modules)
+ ✓ Compiled in 3.5s (256 modules)
+ ✓ Compiled in 442ms (256 modules)
+ ✓ Compiled in 523ms (256 modules)
+ ✓ Compiled in 364ms (256 modules)
+ ✓ Compiled in 6.2s (1003 modules)
+ ✓ Compiled in 915ms (1003 modules)
+ ✓ Compiled in 891ms (242 modules)
+ ✓ Compiled in 6.8s (242 modules)
+ ✓ Compiled in 2.4s (242 modules)
+ ✓ Compiled in 3.9s (242 modules)
+ ✓ Compiled in 498ms (242 modules)
+ ✓ Compiled in 364ms (242 modules)
+ ✓ Compiled in 379ms (242 modules)
+ ✓ Compiled in 336ms (242 modules)
+ ✓ Compiled in 376ms (242 modules)
+ ✓ Compiled in 854ms (242 modules)
+ ✓ Compiled in 464ms (242 modules)
+ ✓ Compiled in 443ms (242 modules)
+ ✓ Compiled in 1996ms (1003 modules)
+ ✓ Compiled in 2.4s (1003 modules)
+ ✓ Compiled in 531ms (242 modules)
+ ✓ Compiled in 380ms (242 modules)
+ ✓ Compiled in 4.7s (242 modules)
+ ✓ Compiled in 427ms (242 modules)
+ ✓ Compiled in 297ms (242 modules)
+ ✓ Compiled in 412ms (242 modules)
+ ✓ Compiled in 384ms (242 modules)
+ ✓ Compiled in 322ms (242 modules)
+ ✓ Compiled in 377ms (242 modules)
+ ✓ Compiled in 464ms (242 modules)
+ ✓ Compiled in 353ms (242 modules)
+ ✓ Compiled in 5.7s (242 modules)
+ ✓ Compiled in 778ms (242 modules)
+ ✓ Compiled in 2.5s (242 modules)
+ ✓ Compiled in 5.8s (242 modules)
+ ✓ Compiled in 328ms (242 modules)
+ ✓ Compiled in 4.3s (242 modules)
+ ✓ Compiled in 5.4s (242 modules)
+ ✓ Compiled in 432ms (242 modules)
+ ✓ Compiled in 395ms (242 modules)
+ ✓ Compiled in 293ms (242 modules)
+ ✓ Compiled in 237ms (242 modules)
+ ✓ Compiled in 308ms (242 modules)
+ ✓ Compiled in 310ms (242 modules)
+ ✓ Compiled in 398ms (242 modules)
+ ✓ Compiled in 450ms (242 modules)
+ ✓ Compiled in 6.5s (242 modules)
+ ✓ Compiled in 524ms (242 modules)
+ ✓ Compiled in 389ms (242 modules)
+ ✓ Compiled in 1817ms (242 modules)
+ ✓ Compiled in 448ms (242 modules)
+ ✓ Compiled in 512ms (242 modules)
+ ✓ Compiled in 313ms (242 modules)
+ ✓ Compiled in 807ms (242 modules)
+ ✓ Compiled in 3.8s (242 modules)
+ ✓ Compiled in 552ms (242 modules)
+ ✓ Compiled in 3.9s (242 modules)
+ ✓ Compiled in 2.6s (242 modules)
+ ✓ Compiled in 432ms (242 modules)
+ ✓ Compiled in 419ms (242 modules)
+ ✓ Compiled in 5.1s (242 modules)
+ ✓ Compiled in 790ms (242 modules)
+ ✓ Compiled in 615ms (242 modules)
